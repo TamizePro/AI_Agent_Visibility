@@ -1,5 +1,6 @@
 import json
 from confluent_kafka import Producer
+from PromptGenerator import PromptGenerator
 
 class MyKafkaProducer:
     def __init__(self) -> None:
@@ -15,11 +16,13 @@ class MyKafkaProducer:
     
     def send_message(self):
         # Produce message
-        for i in range(100):
-            data = {'i': 'value'+ str(i)}
+        promptGenerator = PromptGenerator()
+
+        for i in range(10):
+            data = {'prompt': promptGenerator.generate_prompt()}
             self.producer.produce(
                 'test-topic',
-                key='key1',
+                key='key',
                 value=json.dumps(data),
                 callback=self.__delivery_report
             )
