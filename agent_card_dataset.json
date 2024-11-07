@@ -1,0 +1,390 @@
+[
+    {
+        "agent_card": {
+          "agent_id": 0,
+          "name": "Financial Advisory Assistant",
+          "sections": {
+            "system_architecture": {
+              "model": "Flan-T5-base",
+              "capabilities": [
+                "risk assessment",
+                "investment recommendation",
+                "market trend summarization"
+              ]
+            },
+            "generality_and_scope": {
+              "tasks": [
+                "data analysis",
+                "report generation",
+                "investment strategy Q&A"
+              ],
+              "performance_threshold": "specified accuracy threshold"
+            },
+            "safety_and_alignment_evaluations": {
+              "checks": [
+                {
+                  "type": "alignment",
+                  "focus": [
+                    "accuracy",
+                    "ethical considerations"
+                  ],
+                  "results": {
+                    "financial_bias": "mitigated",
+                    "high-risk_advice": "avoided",
+                    "dangerous_behaviors": "none reported"
+                  }
+                }
+              ]
+            },
+            "dependencies": [
+              {
+                "type": "api",
+                "name": "market data provider API",
+                "purpose": "real-time data"
+              },
+              {
+                "type": "model",
+                "name": "GPT-4o",
+                "purpose": "language comprehension"
+              },
+              {
+                "type": "tool",
+                "name": "Talend",
+                "purpose": "data extraction"
+              },
+              {
+                "type": "tool",
+                "name": "Power BI",
+                "purpose": "data visualization"
+              }
+            ]
+          },
+          "specific_instance": {
+            "creation_and_purpose": {
+              "developer_role": "data scientist",
+              "goal": "support financial advisors in analyzing and presenting data"
+            },
+            "goals": [
+              {
+                "primary_goal": "provide data-driven insights and recommendations",
+                "supervision": "ensures human oversight in final advisories"
+              }
+            ],
+            "tools_and_permissions": {
+              "tools": [
+                "Talend",
+                "Power BI",
+                "financial data APIs"
+              ],
+              "permissions": {
+                "data_access": "limited to analysis",
+                "database_modification": "restricted",
+                "user_account_access": "restricted"
+              },
+              "persistence": "session-based; does not retain data post-session"
+            },
+            "intended_deployment_environment": {
+              "sector": "financial advisory",
+              "deployment_types": [
+                "in-office",
+                "remote"
+              ]
+            },
+            "impact_and_oversight": {
+              "impact_level": "low to moderate",
+              "control": "full control and oversight by advisors"
+            }
+          },
+          "actors_involved": {
+            "primary_user": {
+              "role": "financial advisor",
+              "interaction_type": "advisory support"
+            },
+            "compute_provider": "organization’s cloud-based infrastructure",
+            "developers": {
+              "team": "data science",
+              "specialization": [
+                "finance-related NLP models",
+                "AI-driven advisory tools"
+              ]
+            },
+            "interacting_humans": [
+              "financial advisors",
+              "clients"
+            ],
+            "tool_and_service_providers": [
+              {
+                "name": "Talend",
+                "purpose": "data integration"
+              },
+              {
+                "name": "Power BI",
+                "purpose": "data visualization"
+              },
+              {
+                "name": "financial data providers",
+                "purpose": "up-to-date market data"
+              }
+            ]
+          }
+        }
+    },
+    {
+        "agent_card": {
+          "agent_id": 1,
+          "name": "Healthcare Information Assistant",
+          "sections": {
+            "system_architecture": {
+              "model": "GPT-4",
+              "capabilities": [
+                "medical question answering",
+                "symptom checking",
+                "providing health tips and guidance"
+              ],
+              "specializations": [
+                "general health",
+                "mental health",
+                "nutrition",
+                "fitness"
+              ]
+            },
+            "generality_and_scope": {
+              "tasks": [
+                "health information retrieval",
+                "symptom guidance",
+                "health tip generation"
+              ],
+              "performance_threshold": "accuracy and safety first approach"
+            },
+            "safety_and_alignment_evaluations": {
+              "checks": [
+                {
+                  "type": "medical alignment",
+                  "focus": [
+                    "accuracy",
+                    "ethical considerations",
+                    "non-diagnostic guidance"
+                  ],
+                  "results": {
+                    "misinformation": "mitigated",
+                    "sensitive topics": "redirection to certified professionals",
+                    "dangerous advice": "none reported"
+                  }
+                }
+              ]
+            },
+            "dependencies": [
+              {
+                "type": "database",
+                "name": "medical knowledge base",
+                "purpose": "reference medical data"
+              },
+              {
+                "type": "API",
+                "name": "symptom checker API",
+                "purpose": "provide context-aware symptom analysis"
+              },
+              {
+                "type": "API",
+                "name": "health tips provider",
+                "purpose": "daily wellness advice"
+              }
+            ]
+          },
+          "specific_instance": {
+            "creation_and_purpose": {
+              "developer_role": "AI research team",
+              "goal": "provide reliable, accessible health information and advice"
+            },
+            "goals": [
+              {
+                "primary_goal": "assist users with general health information",
+                "user_specified_goals": "non-emergency health guidance and lifestyle advice"
+              }
+            ],
+            "tools_and_permissions": {
+              "tools": [
+                "symptom checker API",
+                "wellness data provider API"
+              ],
+              "permissions": {
+                "data_access": "restricted to public health information",
+                "medical data modification": "no",
+                "user data storage": "no persistent storage"
+              },
+              "persistence": "temporary; retains data only for session duration"
+            },
+            "intended_deployment_environment": {
+              "sector": "healthcare information",
+              "deployment_types": [
+                "mobile app",
+                "web app",
+                "home assistant devices"
+              ]
+            },
+            "impact_and_oversight": {
+              "impact_level": "moderate; informational use",
+              "oversight": "guidance and oversight by healthcare advisors"
+            }
+          },
+          "actors_involved": {
+            "primary_user": {
+              "role": "general public",
+              "interaction_type": "health information and wellness advice"
+            },
+            "compute_provider": "cloud-based healthcare system",
+            "developers": {
+              "team": "healthcare AI specialists",
+              "specialization": [
+                "health-focused AI",
+                "patient safety in AI systems"
+              ]
+            },
+            "interacting_humans": [
+              "app users",
+              "healthcare professionals (for occasional validation)"
+            ],
+            "tool_and_service_providers": [
+              {
+                "name": "symptom checker API",
+                "purpose": "provides reliable symptom information"
+              },
+              {
+                "name": "health tips provider",
+                "purpose": "delivers wellness and fitness tips"
+              },
+              {
+                "name": "health database provider",
+                "purpose": "offers verified medical information"
+              }
+            ]
+          }
+        }
+    },
+    {
+        "agent_card": {
+          "agent_id": 2,
+          "name": "Financial Portfolio Advisor",
+          "sections": {
+            "system_architecture": {
+              "model": "GPT-4-turbo",
+              "capabilities": [
+                "financial analysis",
+                "portfolio optimization",
+                "risk assessment"
+              ],
+              "specializations": [
+                "investment strategy",
+                "stock market analysis",
+                "risk management"
+              ]
+            },
+            "generality_and_scope": {
+              "tasks": [
+                "analyze market trends",
+                "provide investment recommendations",
+                "portfolio diversification advice"
+              ],
+              "performance_threshold": "consistent risk-adjusted return recommendations"
+            },
+            "safety_and_alignment_evaluations": {
+              "checks": [
+                {
+                  "type": "financial compliance",
+                  "focus": [
+                    "regulatory alignment",
+                    "customer risk profiling",
+                    "non-predictive financial advice"
+                  ],
+                  "results": {
+                    "market speculation": "mitigated",
+                    "high-risk investment suggestions": "minimized",
+                    "financial data security": "encrypted data handling"
+                  }
+                }
+              ]
+            },
+            "dependencies": [
+              {
+                "type": "financial data API",
+                "name": "market data provider",
+                "purpose": "retrieve real-time stock prices and historical data"
+              },
+              {
+                "type": "portfolio optimization API",
+                "name": "risk assessment service",
+                "purpose": "assess and mitigate portfolio risks"
+              }
+            ]
+          },
+          "specific_instance": {
+            "creation_and_purpose": {
+              "developer_role": "financial technology team",
+              "goal": "assist users with investment planning and portfolio management"
+            },
+            "goals": [
+              {
+                "primary_goal": "help users maximize returns while managing risk",
+                "user_specified_goals": "suggest diverse, risk-adjusted investment portfolios"
+              }
+            ],
+            "tools_and_permissions": {
+              "tools": [
+                "market data API",
+                "portfolio analysis toolkit"
+              ],
+              "permissions": {
+                "data_access": "read-only access to financial data",
+                "portfolio modifications": "suggestion-only, requires user approval",
+                "user data storage": "temporarily during active sessions"
+              },
+              "persistence": "no persistent storage of user data after session ends"
+            },
+            "intended_deployment_environment": {
+              "sector": "financial services",
+              "deployment_types": [
+                "mobile app",
+                "web app",
+                "embedded in banking platforms"
+              ]
+            },
+            "impact_and_oversight": {
+              "impact_level": "high; direct influence on user financial decisions",
+              "oversight": "reviewed by certified financial analysts"
+            }
+          },
+          "actors_involved": {
+            "primary_user": {
+              "role": "individual investors",
+              "interaction_type": "financial planning and portfolio advice"
+            },
+            "compute_provider": "cloud-based financial platform",
+            "developers": {
+              "team": "fintech AI development team",
+              "specialization": [
+                "financial modeling",
+                "investment analysis algorithms"
+              ]
+            },
+            "interacting_humans": [
+              "app users",
+              "financial advisors (for compliance and review)"
+            ],
+            "tool_and_service_providers": [
+              {
+                "name": "market data provider",
+                "purpose": "provides real-time stock and financial data"
+              },
+              {
+                "name": "portfolio optimization API",
+                "purpose": "analyzes portfolio risks and diversification potential"
+              },
+              {
+                "name": "customer support service",
+                "purpose": "assists users with questions about financial recommendations"
+              }
+            ]
+          }
+        }
+    }          
+]

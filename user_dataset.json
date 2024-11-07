@@ -1,0 +1,242 @@
+[
+    {
+        "id": 1,
+        "name": {
+            "first": "Alice",
+            "last": "Smith"
+        },
+        "email": "alice.smith@example.com",
+        "phone": "+1-555-123-4567",
+        "age": 28,
+        "gender": "female",
+        "location": {
+            "city": "New York",
+            "state": "NY",
+            "country": "USA",
+            "postal_code": "10001"
+        },
+        "preferences": {
+            "newsletter": true,
+            "notifications": false,
+            "language": "English"
+        },
+        "registration_date": "2022-01-15",
+        "last_login": "2024-10-29"
+    },
+    {
+        "id": 2,
+        "name": {
+            "first": "Bob",
+            "last": "Johnson"
+        },
+        "email": "bob.johnson@example.com",
+        "phone": "+1-555-234-5678",
+        "age": 34,
+        "gender": "male",
+        "location": {
+            "city": "Los Angeles",
+            "state": "CA",
+            "country": "USA",
+            "postal_code": "90001"
+        },
+        "preferences": {
+            "newsletter": false,
+            "notifications": true,
+            "language": "English"
+        },
+        "registration_date": "2021-05-22",
+        "last_login": "2024-10-28"
+    },
+    {
+        "id": 3,
+        "name": {
+            "first": "Charlie",
+            "last": "Brown"
+        },
+        "email": "charlie.brown@example.com",
+        "phone": "+1-555-345-6789",
+        "age": 22,
+        "gender": "male",
+        "location": {
+            "city": "Chicago",
+            "state": "IL",
+            "country": "USA",
+            "postal_code": "60601"
+        },
+        "preferences": {
+            "newsletter": true,
+            "notifications": true,
+            "language": "English"
+        },
+        "registration_date": "2023-03-12",
+        "last_login": "2024-10-27"
+    },
+    {
+        "id": 4,
+        "name": {
+            "first": "Dana",
+            "last": "Lee"
+        },
+        "email": "dana.lee@example.com",
+        "phone": "+1-555-456-7890",
+        "age": 31,
+        "gender": "female",
+        "location": {
+            "city": "Houston",
+            "state": "TX",
+            "country": "USA",
+            "postal_code": "77001"
+        },
+        "preferences": {
+            "newsletter": false,
+            "notifications": false,
+            "language": "English"
+        },
+        "registration_date": "2020-11-05",
+        "last_login": "2024-10-26"
+    },
+    {
+        "id": 5,
+        "name": {
+            "first": "Evan",
+            "last": "Garcia"
+        },
+        "email": "evan.garcia@example.com",
+        "phone": "+1-555-567-8901",
+        "age": 45,
+        "gender": "male",
+        "location": {
+            "city": "Phoenix",
+            "state": "AZ",
+            "country": "USA",
+            "postal_code": "85001"
+        },
+        "preferences": {
+            "newsletter": true,
+            "notifications": true,
+            "language": "Spanish"
+        },
+        "registration_date": "2019-08-15",
+        "last_login": "2024-10-25"
+    },
+    {
+        "id": 6,
+        "name": {
+            "first": "Fiona",
+            "last": "Patel"
+        },
+        "email": "fiona.patel@example.com",
+        "phone": "+1-555-678-9012",
+        "age": 29,
+        "gender": "female",
+        "location": {
+            "city": "San Diego",
+            "state": "CA",
+            "country": "USA",
+            "postal_code": "92101"
+        },
+        "preferences": {
+            "newsletter": true,
+            "notifications": false,
+            "language": "English"
+        },
+        "registration_date": "2021-09-09",
+        "last_login": "2024-10-24"
+    },
+    {
+        "id": 7,
+        "name": {
+            "first": "George",
+            "last": "Wang"
+        },
+        "email": "george.wang@example.com",
+        "phone": "+1-555-789-0123",
+        "age": 38,
+        "gender": "male",
+        "location": {
+            "city": "Seattle",
+            "state": "WA",
+            "country": "USA",
+            "postal_code": "98101"
+        },
+        "preferences": {
+            "newsletter": false,
+            "notifications": true,
+            "language": "Chinese"
+        },
+        "registration_date": "2018-04-20",
+        "last_login": "2024-10-23"
+    },
+    {
+        "id": 8,
+        "name": {
+            "first": "Hannah",
+            "last": "Kim"
+        },
+        "email": "hannah.kim@example.com",
+        "phone": "+1-555-890-1234",
+        "age": 27,
+        "gender": "female",
+        "location": {
+            "city": "Austin",
+            "state": "TX",
+            "country": "USA",
+            "postal_code": "73301"
+        },
+        "preferences": {
+            "newsletter": true,
+            "notifications": true,
+            "language": "English"
+        },
+        "registration_date": "2022-06-30",
+        "last_login": "2024-10-22"
+    },
+    {
+        "id": 9,
+        "name": {
+            "first": "Ian",
+            "last": "Thompson"
+        },
+        "email": "ian.thompson@example.com",
+        "phone": "+1-555-901-2345",
+        "age": 40,
+        "gender": "male",
+        "location": {
+            "city": "Denver",
+            "state": "CO",
+            "country": "USA",
+            "postal_code": "80201"
+        },
+        "preferences": {
+            "newsletter": false,
+            "notifications": true,
+            "language": "English"
+        },
+        "registration_date": "2020-12-12",
+        "last_login": "2024-10-21"
+    },
+    {
+        "id": 10,
+        "name": {
+            "first": "Julia",
+            "last": "Martinez"
+        },
+        "email": "julia.martinez@example.com",
+        "phone": "+1-555-012-3456",
+        "age": 33,
+        "gender": "female",
+        "location": {
+            "city": "Miami",
+            "state": "FL",
+            "country": "USA",
+            "postal_code": "33101"
+        },
+        "preferences": {
+            "newsletter": true,
+            "notifications": false,
+            "language": "Spanish"
+        },
+        "registration_date": "2021-02-19",
+        "last_login": "2024-10-20"
+    }
+]
